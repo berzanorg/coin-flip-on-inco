@@ -5,7 +5,7 @@
 <header
     class="sticky top-0 z-30 h-16 flex items-center justify-between px-4 border-b border-neutral-800 bg-neutral-900"
 >
-    <a href="/" class="font-semibold text-lg">Rock Paper Scissors</a>
+    <a href="/" class="font-semibold text-lg">Coin Flip</a>
     <button
         onclick={wallet.connect}
         disabled={wallet.address !== undefined}
